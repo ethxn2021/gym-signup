@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <script src="question1.js"></script>
+    <link rel="stylesheet" href="question1.css">
+</head>
+<body>
+    <a id="q1" href="question1.html">Question 1</a>
+    <a id="q2" href="question2.html">Question 2</a>
+    <a id="q3" href="question3.html">Question 3</a>
+    <form autocomplete="off">
+        <h1>Gym Membership</h1>
+        <div id="nameslot">
+            <p id="name">Name</p>
+            <input placeholder="Enter your name" id="inputName"></input>
+        </div>
+        <div id="ageslot">
+            <p id="age">Age</p>
+            <input placeholder="Enter your age" id="inputAge"></input>
+        </div>
+        <div id="heightslot">
+            <p id="height">Height</p>
+            <select id="inputFeet">
+                <option value="4'">4'</option>
+                <option value="5'">5'</option>
+                <option value="6'">6'</option>
+            </select>
+            <select id="inputInches">
+                <option value="0">0"</option>
+                <option value="1">1"</option>
+                <option value="2">2"</option>
+                <option value="3">3"</option>
+                <option value="4">4"</option>
+                <option value="5">5"</option>
+                <option value="6">6"</option>
+                <option value="7">7"</option>
+                <option value="8">8"</option>
+                <option value="9">9"</option>
+                <option value="10">10"</option>
+                <option value="11">11"</option>
+            </select>
+        </div>
+        <div id="dateslot">
+            <p id="date">Start Date</p>
+        </div>
+            <input type="date" id="inputDate"></input>
+        </div>
+        <button type='button' id="reset">Reset</button>
+        <button type='button' id="display">Display</button>
+        <table id="table">
+            <div id="list">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Height</th>
+                    <th>Start Date</th>
+                    <th id="entries">0</th>
+                  </tr>
+            </div>
+        </table>
+    </form>
+</body>
+</html>
